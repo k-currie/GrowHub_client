@@ -11,8 +11,6 @@ class Request {
       }
 
       post(url, payload){
-        console.log("Final payload being sent via POST:")
-        console.log(payload);
         return fetch(url, {
           method: "POST",
           headers: {'Content-Type': 'application/json'},

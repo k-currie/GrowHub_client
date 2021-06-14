@@ -5,9 +5,6 @@ const KnowHowDetail = ({knowHow, currentUser}) => {
     const monthLower = knowHow.month.toLowerCase();
     const month = monthLower[0].toUpperCase() + monthLower.slice(1);
 
-    // String date, User author, String title, String body, Month month
-
-
     const getReplies = () => {
         return knowHow.replies.map((reply, index) => {
                 return (

@@ -1,9 +1,6 @@
 import React from 'react';
 import KnowHow from './KnowHow.js';
 import {Link} from 'react-router-dom';
-
-// Purpose:
-    // Render a list of all KnowHows
     
 const KnowHowList = ({currentUser, knowHows}) =>{
 

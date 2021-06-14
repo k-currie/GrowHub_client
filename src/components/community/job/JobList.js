@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Job from './Job.js';
 import {Link} from 'react-router-dom';
 
